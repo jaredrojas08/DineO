@@ -1,0 +1,10 @@
+language: en-US
+reviews:
+  profile: chill
+  auto_review:
+    enabled: true
+    base_branches:
+      - main
+  path_filters:
+    - "!package-lock.json"
+    - "!assets/**"
